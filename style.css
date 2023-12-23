@@ -280,15 +280,16 @@ width: 45%;
         }  
         input:checked ~ .nav  {
             transform: rotateX(0deg);
-            margin-right: 0px;
-        
-        
+            margin-right: -60px;
+            margin-top: 8px;
+    
         } 
         .header .navbar{
             flex-direction: column;
             height: 8vh;
             width: 100%;
         }
+
     .header .navbar .logo
     {
     width: 100%;
@@ -299,5 +300,8 @@ width: 45%;
     .header .navbar .list .login{
         color: #7a7676;
     }
-
+    .header .arrow{
+        display: none;
+    
+    }
 }
